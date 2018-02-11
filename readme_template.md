@@ -28,16 +28,9 @@ into a unified hosts file with duplicates removed.  A variety of tailored hosts 
 
 ### List of all hosts file variants
 
-The **Non GitHub mirror** is the link to use for some hosts file managers like
-[Hostsman for Windows](http://www.abelhadigital.com/hostsman) that don't work
-with Github download links.
-
-Host file recipe | Readme | Raw hosts | Unique domains | Non Github mirror
----------------- |:------:|:---------:|:--------------:|:-------------:
+Host file recipe | Readme | Raw hosts | Unique domains
+---------------- |:------:|:---------:|:--------------:
 @TOCROWS@
-
-**Expectation**: These unified hosts files should serve all devices, regardless
-of OS.
 
 ## Sources of hosts data unified in this variant
 

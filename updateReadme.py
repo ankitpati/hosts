@@ -22,8 +22,7 @@ def main():
                  'hosts/blob/master/${location}readme.md) | '
                  '[link](https://raw.githubusercontent.com/ankitpati/'
                  'hosts/master/${location}hosts) | '
-                 '${fmtentries} | '
-                 '[link](http://sbc.io/hosts/${location}hosts)')
+                 '${fmtentries}')
     with open(README_DATA_FILENAME, 'r') as f:
         data = json.load(f)
 
