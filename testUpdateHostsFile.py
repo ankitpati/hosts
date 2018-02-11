@@ -793,7 +793,7 @@ class TestWriteOpeningHeader(BaseMockDir):
             "# Number of unique domains: {count}".format(
                 count=kwargs["numberofrules"]),
             "Fetch the latest version of this file:",
-            "Project home page: https://github.com/StevenBlack/hosts",
+            "Project home page: https://github.com/ankitpati/hosts",
         ):
             self.assertIn(expected, contents)
 
@@ -826,7 +826,7 @@ class TestWriteOpeningHeader(BaseMockDir):
             "# Number of unique domains: {count}".format(
                 count=kwargs["numberofrules"]),
             "Fetch the latest version of this file:",
-            "Project home page: https://github.com/StevenBlack/hosts",
+            "Project home page: https://github.com/ankitpati/hosts",
         ):
             self.assertIn(expected, contents)
 
@@ -863,7 +863,7 @@ class TestWriteOpeningHeader(BaseMockDir):
             "# Number of unique domains: {count}".format(
                 count=kwargs["numberofrules"]),
             "Fetch the latest version of this file:",
-            "Project home page: https://github.com/StevenBlack/hosts",
+            "Project home page: https://github.com/ankitpati/hosts",
         ):
             self.assertIn(expected, contents)
 
@@ -889,7 +889,7 @@ class TestWriteOpeningHeader(BaseMockDir):
             "# Number of unique domains: {count}".format(
                 count=kwargs["numberofrules"]),
             "Fetch the latest version of this file:",
-            "Project home page: https://github.com/StevenBlack/hosts",
+            "Project home page: https://github.com/ankitpati/hosts",
         ):
             self.assertIn(expected, contents)
 
@@ -927,7 +927,7 @@ class TestWriteOpeningHeader(BaseMockDir):
             "# Number of unique domains: {count}".format(
                 count=kwargs["numberofrules"]),
             "Fetch the latest version of this file:",
-            "Project home page: https://github.com/StevenBlack/hosts",
+            "Project home page: https://github.com/ankitpati/hosts",
         ):
             self.assertIn(expected, contents)
 

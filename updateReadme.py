@@ -18,9 +18,9 @@ README_DATA_FILENAME = "readmeData.json"
 
 
 def main():
-    s = Template('${description} | [Readme](https://github.com/StevenBlack/'
+    s = Template('${description} | [Readme](https://github.com/ankitpati/'
                  'hosts/blob/master/${location}readme.md) | '
-                 '[link](https://raw.githubusercontent.com/StevenBlack/'
+                 '[link](https://raw.githubusercontent.com/ankitpati/'
                  'hosts/master/${location}hosts) | '
                  '${fmtentries} | '
                  '[link](http://sbc.io/hosts/${location}hosts)')

@@ -22,7 +22,7 @@ This repository consolidates several reputable `hosts` files, and merges them
 into a unified hosts file with duplicates removed.  A variety of tailored hosts files are provided.
 
 * Last updated: **@GEN_DATE@**.
-* Here's the [raw hosts file @EXTENSIONS_HEADER@](https://raw.githubusercontent.com/StevenBlack/hosts/master/@SUBFOLDER@hosts) containing @NUM_ENTRIES@ entries.
+* Here's the [raw hosts file @EXTENSIONS_HEADER@](https://raw.githubusercontent.com/ankitpati/hosts/master/@SUBFOLDER@hosts) containing @NUM_ENTRIES@ entries.
 * Logo by [@Tobaloidee](https://github.com/Tobaloidee).
 
 
@@ -52,12 +52,12 @@ Host file source | Description | Home page | Raw hosts | Update frequency | Lice
 ## Extensions
 The unified hosts file is extensible.  Extensions are used to block domains by category.  
 
-Extensions are optional, and are added to the base hosts file.  Extensions are combined in various ways wth the default hosts file, and the combined products are stored in the [`alternates`](https://github.com/StevenBlack/hosts/tree/master/alternates) folder.
+Extensions are optional, and are added to the base hosts file.  Extensions are combined in various ways wth the default hosts file, and the combined products are stored in the [`alternates`](https://github.com/ankitpati/hosts/tree/master/alternates) folder.
 
-For example, you may want to block porn domains in addition to the adware and malware we block by default.  That hosts file is stored in the porn subfolder of the [`alternates`](https://github.com/StevenBlack/hosts/tree/master/alternates) folder.  
+For example, you may want to block porn domains in addition to the adware and malware we block by default.  That hosts file is stored in the porn subfolder of the [`alternates`](https://github.com/ankitpati/hosts/tree/master/alternates) folder.  
 
-Data for extensions is stored in the [`extensions`](https://github.com/StevenBlack/hosts/tree/master/extensions) folder. You manage extensions by curating the
-[`extensions`](https://github.com/StevenBlack/hosts/tree/master/extensions)  folder tree where you will find the data for `fakenews`, `social`, `gambling`, and `porn` extension data that we maintain and provide for you.
+Data for extensions is stored in the [`extensions`](https://github.com/ankitpati/hosts/tree/master/extensions) folder. You manage extensions by curating the
+[`extensions`](https://github.com/ankitpati/hosts/tree/master/extensions)  folder tree where you will find the data for `fakenews`, `social`, `gambling`, and `porn` extension data that we maintain and provide for you.
 
 ## Generate your own unified hosts file
 
@@ -178,12 +178,12 @@ If you discover sketchy domains you feel should be included here, here are some 
 
 ### Option 1: contact one of our hosts sources
 
-The best way to get new domains included is to submit an issue to any of the data providers whose home pages are [listed here](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant). This is best because once you submit new domains, they will be curated and updated by the dedicated folks who maintain these sources.
+The best way to get new domains included is to submit an issue to any of the data providers whose home pages are [listed here](https://github.com/ankitpati/hosts#sources-of-hosts-data-unified-in-this-variant). This is best because once you submit new domains, they will be curated and updated by the dedicated folks who maintain these sources.
 
 
-### Option 2: add your domains to Steven Black's personal data file
+### Option 2: add your domains to Ankit Pati's personal data file
 
-Fork this hosts this repo and add your links to [https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts).
+Fork this hosts this repo and add your links to [https://github.com/ankitpati/hosts/blob/master/data/ankitpati/hosts](https://github.com/ankitpati/hosts/blob/master/data/ankitpati/hosts).
 
 Then, submit a pull request.
 

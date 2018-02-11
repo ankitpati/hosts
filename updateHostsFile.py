@@ -933,11 +933,16 @@ def write_opening_header(final_file, **header_params):
 
     write_data(final_file, ("# Number of unique domains: {:,}\n#\n".format(header_params["numberofrules"])))
     write_data(final_file, "# Fetch the latest version of this file: "
-                           "https://raw.githubusercontent.com/StevenBlack/hosts/master/" +
-               path_join_robust(header_params["outputsubfolder"], "") + "hosts\n")
-    write_data(final_file, "# Project home page: https://github.com/StevenBlack/hosts\n")
-    write_data(final_file, "# Project releases: https://github.com/StevenBlack/hosts/releases\n#\n")
-    write_data(final_file, "# ===============================================================\n")
+                           "https://raw.githubusercontent.com/"
+                           "ankitpati/hosts/master/" +
+               path_join_robust(header_params["outputsubfolder"],
+                                "") + "hosts\n")
+    write_data(final_file, "# Project home page: https://github.com/"
+                           "ankitpati/hosts\n#\n")
+    write_data(final_file, "# Project releases: https://github.com/"
+                           "ankitpati/hosts/releases\n#\n")
+    write_data(final_file, "# ==============================="
+                           "================================\n")
     write_data(final_file, "\n")
 
     if not header_params["skipstatichosts"]:
