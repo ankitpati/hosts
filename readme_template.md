@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/StevenBlack/hosts.svg?branch=master)](https://travis-ci.org/StevenBlack/hosts)
-
 # Unified hosts file @EXTENSIONS_HEADER@
 
 This repository consolidates several reputable `hosts` files, and merges them
