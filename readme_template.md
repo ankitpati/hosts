@@ -4,7 +4,7 @@ This repository consolidates several reputable `hosts` files, and merges them
 into a unified hosts file with duplicates removed.  A variety of tailored hosts files are provided.
 
 * Last updated: **@GEN_DATE@**.
-* Here's the [raw hosts file @EXTENSIONS_HEADER@](https://raw.githubusercontent.com/StevenBlack/hosts/master/@SUBFOLDER@hosts) containing @NUM_ENTRIES@ entries.
+* Here's the [raw hosts file @EXTENSIONS_HEADER@](https://raw.githubusercontent.com/ankitpati/hosts/master/@SUBFOLDER@hosts) containing @NUM_ENTRIES@ entries.
 
 
 ### List of all hosts file variants
@@ -162,12 +162,12 @@ If you discover sketchy domains you feel should be included here, here are some 
 
 ### Option 1: contact one of our hosts sources
 
-The best way to get new domains included is to submit an issue to any of the data providers whose home pages are [listed here](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant). This is best because once you submit new domains, they will be curated and updated by the dedicated folks who maintain these sources.
+The best way to get new domains included is to submit an issue to any of the data providers whose home pages are [listed here](https://github.com/ankitpati/hosts#sources-of-hosts-data-unified-in-this-variant). This is best because once you submit new domains, they will be curated and updated by the dedicated folks who maintain these sources.
 
 
-### Option 2: add your domains to Steven Black's personal data file
+### Option 2: add your domains to Ankit Pati's personal data file
 
-Fork this hosts this repo and add your links to [https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts).
+Fork this hosts this repo and add your links to [https://github.com/ankitpati/hosts/blob/master/data/ankitpati/hosts](https://github.com/ankitpati/hosts/blob/master/data/ankitpati/hosts).
 
 Then, submit a pull request.
 
@@ -175,7 +175,7 @@ Then, submit a pull request.
 
 ### Option 3: create your own hosts list as a repo on Github
 
-If you're able to curate your own collection of sketchy domains, then curate your own hosts list.  Then signal the existance of your remo as [a new issue](https://github.com/StevenBlack/hosts/issues) and we may include your new repo into the collection of sources we pull whenever we create new versions.
+If you're able to curate your own collection of sketchy domains, then curate your own hosts list.  Then signal the existance of your remo as [a new issue](https://github.com/ankitpati/hosts/issues) and we may include your new repo into the collection of sources we pull whenever we create new versions.
 
 
 ## What is a hosts file?

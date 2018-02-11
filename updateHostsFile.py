@@ -926,11 +926,11 @@ def write_opening_header(final_file, **header_params):
                                                    "numberofrules"])))
     write_data(final_file, "# Fetch the latest version of this file: "
                            "https://raw.githubusercontent.com/"
-                           "StevenBlack/hosts/master/" +
+                           "ankitpati/hosts/master/" +
                path_join_robust(header_params["outputsubfolder"],
                                 "") + "hosts\n")
     write_data(final_file, "# Project home page: https://github.com/"
-                           "StevenBlack/hosts\n#\n")
+                           "ankitpati/hosts\n#\n")
     write_data(final_file, "# ==============================="
                            "================================\n")
     write_data(final_file, "\n")
