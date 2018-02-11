@@ -1,6 +1,5 @@
 .idea
 *.iml
-whitelist
 readmeData.json
 hosts-*
 /web.config
