@@ -132,7 +132,7 @@ listing of additional domains in `hosts` file format) are appended to the
 unified hosts file during the update process. A sample `blacklist` is
 included, and may be modified as you desire.
 
-  * NOTE: The `blacklist` is not tracked by git, so any changes you make won't
+  * NOTE: The `blacklist` is tracked by git, so any changes you make will
 be overridden when you `git pull`   this repo from `origin` in the future.
 
 ### How do I include my own custom domain mappings?
