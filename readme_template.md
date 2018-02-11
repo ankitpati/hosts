@@ -157,7 +157,7 @@ If you have custom hosts records, place them in file `myhosts`.  The contents
 of this file are prepended to the unified hosts file during the update
 process.
 
-The `myhosts` file is not tracked by git, so any changes you make won't be
+The `myhosts` file is tracked by git, so any changes you make will be
 overridden when you `git pull` this repo from `origin` in the future.
 
 ### How do I prevent domains from being included?
