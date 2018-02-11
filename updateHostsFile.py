@@ -611,8 +611,9 @@ def update_all_sources(source_data_filename, host_filename):
                                                host_filename), "wb")
             write_data(hosts_file, updated_file)
             hosts_file.close()
-        except Exception:
+        except Exception as e:
             print("Error in updating source: ", update_url)
+            print("\t", e)
 # End Update Logic
 
 
