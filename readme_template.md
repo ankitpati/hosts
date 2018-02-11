@@ -169,7 +169,7 @@ The `whitelist` uses partial matching.  Therefore if you whitelist
 `google-analytics.com`, that domain and all its subdomains won't be merged
 into the final hosts file.
 
-The `whitelist` is not tracked by git, so any changes you make won't be
+The `whitelist` is tracked by git, so any changes you make will be
 overridden when you `git pull` this repo  from `origin` in the future.
 
 ## How can I contribute hosts records?
