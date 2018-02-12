@@ -1,0 +1,9 @@
+{
+    "name": "Ankit Pati’s Opinionated List",
+    "description": "Domains providing low-quality, suboptimal, or downright malicious services and products.",
+    "homeurl": "https://github.com/ankitpati/hosts/blob/master/data/ankitpati/hosts",
+    "frequency": "occasionally",
+    "issues": "https://github.com/ankitpati/hosts/issues",
+    "url": "https://raw.githubusercontent.com/ankitpati/hosts/master/data/ankitpati/hosts",
+    "license": "GPLv3"
+}
