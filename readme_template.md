@@ -3,18 +3,6 @@
 
 ----
 
-![readme](https://user-images.githubusercontent.com/36028424/40330477-9df2c2e0-5d7f-11e8-8ac8-511d719a5eae.png)
-
-[![latest release](https://img.shields.io/github/release/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/releases)
-[![license](https://img.shields.io/github/license/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/blob/master/license.txt)
-[![repo size](https://img.shields.io/github/repo-size/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts)
-[![contributors](https://img.shields.io/github/contributors/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/graphs/contributors)
-[![Build Status](https://travis-ci.org/StevenBlack/hosts.svg?branch=master)](https://travis-ci.org/StevenBlack/hosts)
-
-[![commits since last release](https://img.shields.io/github/commits-since/StevenBlack/hosts/latest.svg)](https://github.com/StevenBlack/hosts/commits/master)
-[![last commit](https://img.shields.io/github/last-commit/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
-[![commit activity](https://img.shields.io/github/commit-activity/y/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
-
 
 # Unified hosts file @EXTENSIONS_HEADER@
 
@@ -23,7 +11,6 @@ into a unified hosts file with duplicates removed.  A variety of tailored hosts 
 
 * Last updated: **@GEN_DATE@**.
 * Here's the [raw hosts file @EXTENSIONS_HEADER@](https://raw.githubusercontent.com/ankitpati/hosts/master/@SUBFOLDER@hosts) containing @NUM_ENTRIES@ entries.
-* Logo by [@Tobaloidee](https://github.com/Tobaloidee).
 
 
 ### List of all hosts file variants
@@ -329,13 +316,6 @@ Open a Terminal and run:
 ```
 sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
 ```
-
-## Release management
-
-This repository uses [Release-It!](https://webpro.github.io/release-it/), an excellent CLI release 
-tool for Github repos and npm packages, to automate creating [releases](https://github.com/StevenBlack/hosts/releases).
-This is why the [package.json](https://github.com/StevenBlack/hosts/blob/master/package.json) and 
-[.release-it.json](https://github.com/StevenBlack/hosts/blob/master/.release-it.json) files are bundled.
 
 ## Goals of this unified hosts file
 
